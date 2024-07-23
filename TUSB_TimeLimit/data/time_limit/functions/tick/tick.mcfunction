@@ -46,4 +46,3 @@ function time_limit:tick/boss_tick
 # 本来ならrejoinedしてtimer表示させたいけど現状はボスのHPをボスバーで出さないから毎秒表示でええや
 bossbar set time_limit:timer players @a
 
-execute as @a at @s if predicate main:mizi if data entity @s {FallFlying:1b} run function main:nizi

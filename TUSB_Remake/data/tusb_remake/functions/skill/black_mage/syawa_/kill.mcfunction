@@ -1,0 +1,1 @@
+execute as @e[tag=syawa_,limit=1,sort=nearest] at @s run kill @s

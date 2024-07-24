@@ -35,8 +35,7 @@ execute in the_end run summon armor_stand 500.0 100.0 500.0 {NoGravity:1b,Silent
 # チュートリアル建築書き換え
 # これすでにあるもの書き換えてるから看板とか花/種などのアイテムもkillしないといけないだろうねぇー今までと違って
 
-place template time_limit:cloudia/tusb_tutorial_right -1913 109 -211
-place template time_limit:cloudia/tusb_tutorial_left -1913 109 -96
+
 
 
 # 通常世界スポーン位置の真下にアイテムを置く

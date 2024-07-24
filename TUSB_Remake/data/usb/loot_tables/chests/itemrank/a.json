@@ -137,8 +137,8 @@
                         {
                             "function": "set_count",
                             "count": {
-                                "min": 22,
-                                "max": 28
+                                "min": 64,
+                                "max": 128
                             }
                         }
                     ]

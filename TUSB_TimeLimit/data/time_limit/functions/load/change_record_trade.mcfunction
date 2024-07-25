@@ -4,11 +4,11 @@
 # uuidそのまま指定
 
 # pigstep
-data modify entity 60fd38a5-46a3-4318-b0a1-c279a55eae08 Offers.Recipes insert 12 value {xp: 1, buy: {id: "minecraft:music_disc_pigstep", Count: 1b}, sell: {id: "minecraft:porkchop", Count: 16b}, uses: 0, priceMultiplier: 0.0f, maxUses: 2147483647, rewardExp: 0b, demand: 0, specialPrice: 0, buyB: {id: "minecraft:air", Count: 65b}}
+
 # otherside
-data modify entity 60fd38a5-46a3-4318-b0a1-c279a55eae08 Offers.Recipes insert 13 value {xp: 1, buy: {id: "minecraft:music_disc_otherside", Count: 1b}, sell: {id: "minecraft:bell", Count: 1b}, uses: 0, priceMultiplier: 0.0f, maxUses: 2147483647, rewardExp: 0b, demand: 0, specialPrice: 0, buyB: {id: "minecraft:air", Count: 65b}}
+
 # 5
-data modify entity 60fd38a5-46a3-4318-b0a1-c279a55eae08 Offers.Recipes insert 14 value {xp: 1, buy: {id: "minecraft:music_disc_5", Count: 1b}, sell: {id: "minecraft:nether_star", Count: 32b}, uses: 0, priceMultiplier: 0.0f, maxUses: 2147483647, rewardExp: 0b, demand: 0, specialPrice: 0, buyB: {id: "minecraft:air", Count: 65b}}
+
 
 
 # 既存トレードのバフ
@@ -37,7 +37,5 @@ data modify entity 60fd38a5-46a3-4318-b0a1-c279a55eae08 Offers.Recipes[15] set v
 # ダイヤ馬鎧 3から6に
 data modify entity 60fd38a5-46a3-4318-b0a1-c279a55eae08 Offers.Recipes[17] set value {xp: 1, buy: {id: "minecraft:diamond_horse_armor", Count: 1b,}, sell: {id: "minecraft:diamond", Count: 6b}, uses: 0, priceMultiplier: 0.0f, maxUses: 2147483647, rewardExp: 0b, demand: 0, specialPrice: 0, buyB: {id: "minecraft:air", Count: 65b}}
 
-data modify entity 28668cd6-dc12-1cb1-887a-b3516444c254 Offers.Recipes[9] set value {xp:1,buy:{id:"minecraft:ender_pearl",Count:16b,tag:{display:{Name:'{"text":"煉獄エンダーパール","color":"dark_red","bold":true,"italic":false}'},Enchantments:[{id:"minecraft:fire_aspect",lvl:100s}]}}, uses: 0, priceMultiplier: 0.0f, maxUses: 2147483647, rewardExp: 0b, demand: 0, specialPrice: 0, buyB:{id:"minecraft:ender_pearl",Count:16b,tag:{display:{Name:'{"text":"煉獄エンダーパール","color":"dark_red","bold":true,"italic":false}'},Enchantments:[{id:"minecraft:fire_aspect",lvl:100s}]}},sell:{id:"minecraft:red_wool",Count:1b,tag:{display:{Name:'{"text":"Hell Cube","color":"dark_red","bold":true,"italic":false}',Lore:['{"text":"煉獄の熱さが籠った枕"}','{"text":"ほのかな温かみは安眠を誘う"}']},Enchantments:[{id:"minecraft:fire_aspect",lvl:100s}]}}}
 
-data modify entity 28668cd6-dc12-1cb1-887a-b3516444c254 Offers.Recipes insert 13 value {xp:1,buy:{id:"minecraft:trapped_chest",Count:8b}, uses: 0, priceMultiplier: 0.0f, maxUses: 2147483647, rewardExp: 0b, demand: 0, specialPrice: 0, buyB:{id:"minecraft:furnace",Count:8b},sell:{id:"minecraft:ender_pearl",Count:16b,tag:{display:{Name:'{"text":"煉獄エンダーパール","color":"dark_red","bold":true,"italic":false}'},Enchantments:[{id:"minecraft:fire_aspect",lvl:100s}]}}}
 data modify entity 60fd38a5-46a3-4318-b0a1-c279a55eae08 Offers.Recipes[14] set value {xp: 1, buy: {id: "minecraft:golden_horse_armor", Count: 1b}, sell: {id: "minecraft:gold_ingot", Count: 6b}, uses: 0, priceMultiplier: 0.0f, maxUses: 2147483647, rewardExp: 0b, demand: 0, specialPrice: 0, buyB: {id: "minecraft:air", Count: 65b}}

@@ -6,7 +6,7 @@
                 {
                     "type": "item",
                     "name": "minecraft:nether_star",
-                    "weight": 100,
+                    "weight": 20,
                     "functions": [
                         {
                             "function": "minecraft:set_count",

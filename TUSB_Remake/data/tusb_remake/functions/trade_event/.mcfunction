@@ -5,7 +5,7 @@
 
 ### 既に職業についていたら、初回無料の申請書を取り上げる
 clear @s[scores={Job=1..}] minecraft:paper{display:{Name:'"§r§lジョブ変更申請書"'},"初回":true}
-
+clear @s[scores={Job=1..}] minecraft:white_wool 16
 ### 職業変更
 execute store result storage tusb_remake: _ int 1 run clear @s minecraft:paper{JobChange:true} 0
 execute unless data storage tusb_remake: {_:0} at @s run function tusb_remake:job/change/

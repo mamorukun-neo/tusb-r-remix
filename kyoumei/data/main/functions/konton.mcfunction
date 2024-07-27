@@ -2,11 +2,11 @@ effect give @s minecraft:jump_boost 61 4 false
 
 effect give @s minecraft:fire_resistance 61 127 false
 
-effect give @s minecraft:haste 61 1 false
+effect give @s minecraft:haste 61 2 false
 
 effect give @s minecraft:water_breathing 61 127 false
 
-effect give @s minecraft:regeneration 61 1 false
+effect give @s minecraft:regeneration 61 2 false
 
 effect give @s minecraft:resistance 61 2 false
 

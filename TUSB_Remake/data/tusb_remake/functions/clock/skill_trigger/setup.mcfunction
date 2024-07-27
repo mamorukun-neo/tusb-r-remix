@@ -2,7 +2,7 @@
 #
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
-execute as @a[scores={seiyou=2..,Jump=1..}] at @s run function tusb_remake:skill/ninja/seiyou/jump
+execute as @a[scores={seiyou=2..,Jump=1..},nbt={ActiveEffects:[{Id:8}]}] at @s run function tusb_remake:skill/ninja/seiyou/jump
 execute as @a[scores={Choyaku=2..,Jump=1..},nbt={ActiveEffects:[{Id:8}]}] at @s run function tusb_remake:skill/ninja/choyaku/jump
 scoreboard players reset @a[scores={Jump=1..}] Jump
 

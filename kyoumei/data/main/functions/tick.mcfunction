@@ -69,16 +69,6 @@ execute as @a at @s if predicate main:16 run tag @s add tuma
 #忘却されし虚空への災禍-[魂の共鳴]
 execute as @a at @s if predicate main:15 run tag @s add bsaiuzu
 
-#神々の黄昏 戯(頭)
-execute as @a at @s if predicate main:6 run tag @s add tatama
-
-
-#神々の黄昏 戯(胸)
-execute as @a at @s if predicate main:5 run tag @s add tmune
-
-
-#神々の黄昏 戯(脚)
-execute as @a at @s if predicate main:4 run tag @s add tasi
 
 
 # アイテム検知タグ消し
@@ -151,8 +141,3 @@ execute as @a at @s unless predicate main:15 run tag @s remove bsaiuzu
 
 
 
-
-
-
-
-execute as @a at @s if score @s kyoumei matches 1.. run scoreboard players set @s kyoumei 0

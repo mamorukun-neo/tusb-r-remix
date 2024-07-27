@@ -15,6 +15,7 @@ scoreboard players operation @s MP = @s MPMax
 execute store result storage tusb_remake: _ int 0.125 run scoreboard players get @s MPMax
 execute store result score @s HPMax run data get storage tusb_remake: _
 scoreboard players set @s[scores={HPMax_min=51..}] HPMax 50
+scoreboard players set @s[scores={Level=51..}] HPMax 50
 ### MP回復間隔 = 100 - Level (-50で止める)
 scoreboard players set @s CoolTickSpan -100
 scoreboard players operation @s CoolTickSpan += @s Level
@@ -22,7 +23,7 @@ execute as @a if score @s CoolTickSpan matches -49.. run scoreboard players set 
 ### MP回復量 = MPMax / 50 + 3
 execute store result storage tusb_remake: _ int 0.02 run scoreboard players get @s MPMax
 execute store result score @s MPIncrement run data get storage tusb_remake: _
-scoreboard players add @s MPIncrement 3
+scoreboard players add @s MPIncrement 10
 
 ### レベルアップの演出
 playsound minecraft:entity.player.levelup master @a[distance=..16] ~ ~ ~ 2 0.7 0
@@ -37,6 +38,9 @@ title @s title {"text":"LEVEL UP ！","color":"green","bold":true}
 
 ### レベル49までと、レベル50になりたての場合、新しいスキル取得メッセージを表示
 execute if entity @s[scores={Level=1..100,NextExp=..349}] run function tusb_remake:player/skill/learn/
+execute if entity @s[scores={Level=51}] run function tusb_remake:player/skill/learn/
+execute if entity @s[scores={Level=75}] run function tusb_remake:player/skill/learn/
+execute if entity @s[scores={Level=100}] run function tusb_remake:player/skill/learn/
 
 ### 次の経験値の設定
 function tusb_remake:player/hp/set_max

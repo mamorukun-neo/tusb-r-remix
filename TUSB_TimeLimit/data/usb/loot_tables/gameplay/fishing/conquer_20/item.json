@@ -3,7 +3,7 @@
     "pools": [
         {
             "rolls": 1,
-            "total_weight": 225,
+            "total_weight": 145,
             "entries": [
                 {
                     "type": "item",
@@ -50,7 +50,7 @@
                 {
                     "type": "item",
                     "name": "minecraft:nether_star",
-                    "weight": 103,
+                    "weight": 23,
                     "functions": [
                         {
                             "function": "minecraft:set_count",

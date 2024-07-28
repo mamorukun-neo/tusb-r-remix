@@ -3,7 +3,6 @@
 
 # startが1ならタイマーが動くようになってる
 # スタート時の音
-playsound entity.wither.spawn hostile @a ~ ~ ~ 1 1
 
 # 超作業台レシピ変更
 function time_limit:load/change_supercraft_recipe

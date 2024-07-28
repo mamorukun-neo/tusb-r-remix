@@ -8,4 +8,3 @@ playsound entity.player.levelup player @a
 playsound block.portal.trigger block @a ~ ~ ~ 1 2
 
 # タイマーストップ
-scoreboard players set Start Game 2

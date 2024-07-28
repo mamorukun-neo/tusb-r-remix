@@ -1,4 +1,4 @@
-#> tusb_remake:skill/ninja/choyaku/apply
+#> tusb_remake:skill/ninja/seiyou/apply
 ### 跳躍発動時の処理
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
@@ -18,3 +18,18 @@ title @s subtitle {"translate":"                            %1$s Charge!","with"
 title @s title {"text":""}
 
 
+effect give @s[scores={seiyou=1}] minecraft:instant_damage 3 2
+effect give @s[scores={seiyou=2}] minecraft:instant_damage 3 2
+effect give @s[scores={seiyou=3}] minecraft:instant_damage 3 2
+effect give @s[scores={seiyou=4}] minecraft:instant_damage 3 2
+effect give @s[scores={seiyou=5}] minecraft:instant_damage 3 2
+effect give @s[scores={seiyou=6}] minecraft:instant_damage 3 2
+effect give @s[scores={seiyou=7}] minecraft:instant_damage 3 2
+effect give @s[scores={seiyou=8}] minecraft:instant_damage 3 2
+effect give @s[scores={seiyou=9}] minecraft:instant_damage 3 2
+effect give @s[scores={seiyou=10}] minecraft:instant_damage 3 2
+effect give @s[scores={seiyou=11}] minecraft:instant_damage 3 2
+effect give @s[scores={seiyou=12}] minecraft:instant_damage 3 2
+effect give @s[scores={seiyou=13}] minecraft:instant_damage 3 2
+effect give @s[scores={seiyou=13}] minecraft:instant_damage 3 2
+effect give @s[scores={seiyou=15}] minecraft:instant_damage 3 2
